@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="1.076131">
+<testcase classname="Login into Pregnancy Plus Application" name="Login using valid username and password" time="1.076131">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at core.generic.WrapperFunctions.mobileClick(WrapperFunctions.java:849)&#13;&#10;&#9;at com.face.pageFactory.PPlusDailyPage.clickOnNoIWillJoinLaterButton(PPlusDailyPage.java:130)&#13;&#10;&#9;at com.face.stepDefinitions.PPlusDaily.clickOnNoIWillJoinLaterButton(PPlusDaily.java:27)&#13;&#10;&#9;at ✽.Given Click on no i will join later button(PPlusComparison.feature:5)&#13;&#10;"><![CDATA[Given Click on no i will join later button..................................failed
+Then Enter the User Name Test...............................................skipped
+Then Click on done button...................................................skipped
+Then Click on I agree.......................................................skipped
+Then Click on Baby tab......................................................skipped
+Then Click on daily tab.....................................................skipped
+Then Get text to verify.....................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at core.generic.WrapperFunctions.mobileClick(WrapperFunctions.java:849)
+	at com.face.pageFactory.PPlusDailyPage.clickOnNoIWillJoinLaterButton(PPlusDailyPage.java:130)
+	at com.face.stepDefinitions.PPlusDaily.clickOnNoIWillJoinLaterButton(PPlusDaily.java:27)
+	at ✽.Given Click on no i will join later button(PPlusComparison.feature:5)
+]]></failure>
+</testcase>
+</testsuite>

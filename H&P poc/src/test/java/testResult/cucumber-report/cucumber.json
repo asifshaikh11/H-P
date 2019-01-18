@@ -1,0 +1,127 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 957639259,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.applyHook(Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Login using valid username and password",
+        "description": "",
+        "id": "login-into-pregnancy-plus-application;login-using-valid-username-and-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 118492215,
+              "error_message": "java.lang.NullPointerException\r\n\tat core.generic.WrapperFunctions.mobileClick(WrapperFunctions.java:849)\r\n\tat com.face.pageFactory.PPlusDailyPage.clickOnNoIWillJoinLaterButton(PPlusDailyPage.java:130)\r\n\tat com.face.stepDefinitions.PPlusDaily.clickOnNoIWillJoinLaterButton(PPlusDaily.java:27)\r\n\tat ✽.Given Click on no i will join later button(PPlusComparison.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "Click on no i will join later button",
+            "match": {
+              "location": "PPlusDaily.clickOnNoIWillJoinLaterButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Enter the User Name Test",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 20
+                }
+              ],
+              "location": "PPlusDaily.enterUserName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Click on done button",
+            "match": {
+              "location": "PPlusDaily.clickOnDoneButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Click on I agree",
+            "match": {
+              "location": "PPlusDaily.clickOnIAgree()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Click on Baby tab",
+            "match": {
+              "location": "PPlusDaily.clickOnBabyTab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Click on daily tab",
+            "match": {
+              "location": "PPlusDaily.clickOnDailyTab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Get text to verify",
+            "match": {
+              "location": "PPlusDaily.thenGetTextToVerify()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@PPlus"
+          }
+        ]
+      }
+    ],
+    "name": "Login into Pregnancy Plus Application",
+    "description": "",
+    "id": "login-into-pregnancy-plus-application",
+    "keyword": "Feature",
+    "uri": "PPlusComparison.feature"
+  }
+]
